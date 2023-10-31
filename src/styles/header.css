@@ -1,0 +1,34 @@
+header {
+  width: 100%;
+  max-width: 1475px;
+  height: 100vh;
+  background-image: url(../images/main.jpeg),
+    linear-gradient(hsl(188, 22%, 34%), hsla(187, 61%, 20%, 0.322));
+  background-blend-mode: overlay;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+  color: white;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+  font-size: 4rem;
+  letter-spacing: 0.3rem;
+  margin-bottom: 0;
+}
+
+header p {
+  width: 50%;
+  min-width: 400px;
+  letter-spacing: 0.3rem;
+}
+
+.btn:hover {
+  color: white;
+  background-color: transparent;
+}
